@@ -1,7 +1,36 @@
 h1 {
     font-family: 'Monoton', cursive;
+    text-align: center;
+    font-size: 48px;
+    font-weight: lighter;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+.header_bar {
+    background-color: #9DAD7F;
+    margin: 0;
 }
 
 body {
     font-family: 'Ropa Sans', sans-serif;
+}
+
+nav {
+    background-color: #C7CFB7;
+    height: auto;
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav li{
+    display: inline;
+    font-size: larger;
 }
