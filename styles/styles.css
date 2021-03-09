@@ -9,16 +9,17 @@ h1 {
 }
 
 .header_bar {
-    background-color: #9DAD7F;
-    margin: 0;
+    background-color: #b3c98b;
+    margin-top: 0;
 }
 
 body {
     font-family: 'Ropa Sans', sans-serif;
+    background-color: rgb(232, 252, 206);
 }
 
 nav {
-    background-color: #C7CFB7;
+    background-color: #a7ca60;
     height: auto;
     width: 70%;
     margin: 0 auto;
