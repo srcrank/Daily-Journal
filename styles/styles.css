@@ -84,3 +84,6 @@ fieldset {
     border-image: initial;
 }
 
+.entry-details {
+    list-style: none;
+}
