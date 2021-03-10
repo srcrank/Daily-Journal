@@ -13,7 +13,7 @@
 </head>
 <body>
     <nav>
-        <ul class="links_format">
+        <ul>
             <li><a href="index.html">New Entry</a></li>
             <li><a href="contact.html">Contact Me!</a></li>
             <li><a href="archive.html">Archive</a></li>
@@ -21,11 +21,40 @@
     </nav>
 
     <div class="container">
-    <form>
-        <label for="email">Email:</label><br>
-        <input type="text" id="email" name="email"><br>
+    
+    <form action="" class="action">
+        <fieldset>
+            <label for="journalDate">Date of Entry</label>
+            <input type="date" name="journalDate" id="journalDate">
+        </fieldset>
+        <fieldset>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+        </fieldset>
+        <fieldset>
+            <label for="conceptsCovered">Concepts Covered:</label>
+            <input type="text" id="concepts" name="conceptsCovered">
+        </fieldset>
+        <fieldset>
+            <label for="journalEntry">Journal Entry:</label>
+            <textarea id="journalEntry" name="journalEntry" rows="4" cols="20"></textarea>
+        </fieldset>
+        <fieldset>
+            <label for="mood">Mood for the day:</label>
+<input list="mood" id="moodDay" name="moodDay" />
+
+<datalist id="mood">
+    <option value="Happy">
+    <option value="Sad">
+    <option value="Tired">
+    <option value="Frustrated">
+    <option value="Excited">
+</datalist>
+        </fieldset>
         <input type="submit" value="Submit">       
     </form>
 </div>
+<div id="entryLog"></div>
+<script type="module" src="./scripts/main.js"></script>
 </body>
 </html>
